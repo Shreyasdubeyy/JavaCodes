@@ -1,5 +1,2 @@
-5
-4
-3
-2
-1
+ParameterizedWay:120
+FunctionalWay:120
