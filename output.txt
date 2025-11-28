@@ -1,2 +1,1 @@
-ParameterizedWay:120
-FunctionalWay:120
+true
