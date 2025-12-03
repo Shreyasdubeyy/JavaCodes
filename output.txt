@@ -1,1 +1,2 @@
-true
+Before Sorting:[4, 3, 2, 6, 1, 23, 3]
+After Sorting:[1, 2, 3, 3, 4, 6, 23]
