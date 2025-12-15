@@ -1,4 +1,3 @@
-Enter the size of array
-enter elements to find kth largest among them
-enter the kth largest element that you need
-The 2 largest element is: 54
+1
+2
+5
