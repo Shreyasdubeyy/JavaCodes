@@ -4,8 +4,18 @@
 
 public class BasicHeap {
     public static void main(String[] args) {
-        MinHeap h=new MinHeap(5);
-         h.add(5);
+        // MinHeap h=new MinHeap(5);
+        // h.add(5);
+        // h.add(2);
+        // h.add(8);
+        // h.add(1);
+
+        // System.out.println(h.remove()); 
+        // System.out.println(h.remove()); 
+        // System.out.println(h.remove()); 
+try {
+    MaxHeap h=new MaxHeap(5);
+        h.add(5);
         h.add(2);
         h.add(8);
         h.add(1);
@@ -13,6 +23,11 @@ public class BasicHeap {
         System.out.println(h.remove()); 
         System.out.println(h.remove()); 
         System.out.println(h.remove()); 
+} catch (Exception e) {
+}
+
+
+        
     }
 }
 
@@ -90,4 +105,85 @@ void swap(int i,int j){
     heap[i]=heap[j];
     heap[j]=temp;
 }
+}
+
+
+class MaxHeap{
+    int size;
+    int capacity;
+    int heap[];
+
+    MaxHeap(int capacity){
+        heap=new int[capacity];
+        size=0;
+    }
+
+    int parent(int i){
+        return (i-1)/2;
+    }
+
+    int left(int i){
+        return 2*i+1;
+    }
+    int right(int i){
+        return 2*i+2;
+    }
+
+
+    void add(int element){
+        heap[size]=element;
+        size++;
+        int i=size-1;
+
+        while(i>0 && heap[parent(i)]<heap[i]){
+            swap(parent(i),i);
+            i=parent(i);
+        }
+    }
+
+
+    int remove() throws Exception{
+    if(size<=0){
+        throw new Exception("No Element to remove");
+    }
+
+    int element=heap[0];
+
+    heap[0]=heap[size-1];
+    size--;
+    heapify(0);
+
+    return element;
+
+    }
+
+
+//helper methods
+void heapify(int index){
+        
+
+    int largest=index;
+    int left=left(index);
+    int right=right(index);
+
+
+    if(left<size && heap[left]>heap[largest]){
+            largest=left;
+    }
+    if(right<size && heap[right]>heap[largest]){
+            largest=right;
+    }
+    if(largest!=index){
+        swap(largest,index);
+        heapify(largest);
+    }
+
+}
+
+    void swap(int i,int j){
+        int temp=heap[i];
+        heap[i]=heap[j];
+        heap[j]=temp;
+    }
+
 }
