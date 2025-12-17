@@ -1,3 +1,2 @@
-8
-5
-2
+Given Char array:[h, e, l, l, o, u]
+After reversing: [u, o, l, l, e, h]
