@@ -1,2 +1,1 @@
-Given Char array:[h, e, l, l, o, u]
-After reversing: [u, o, l, l, e, h]
+The majority element is:2
