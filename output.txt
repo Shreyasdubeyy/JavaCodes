@@ -1,1 +1,1 @@
-The max subarray sum is :13
+The triplets are :[[-4, 2, 2]]

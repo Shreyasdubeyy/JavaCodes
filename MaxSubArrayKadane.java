@@ -1,8 +1,10 @@
 import java.util.Scanner;
 public class MaxSubArrayKadane {
     public static void main(String[] args) {
+        
         Scanner sc =new Scanner(System.in);
         int arr[];
+
         //size of array
         int size=sc.nextInt();
         arr=new int[size];
