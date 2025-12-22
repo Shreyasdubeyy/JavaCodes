@@ -1,1 +1,4 @@
-The triplets are :[[-4, 2, 2]]
+The compressed array length is:4 
+and the array is: 
+
+a 2 b 5 
