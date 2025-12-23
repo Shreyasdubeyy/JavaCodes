@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 class ThreeSum{
     public static void main(String[] args) {
@@ -19,9 +16,14 @@ class ThreeSum{
             arr[i]=sc.nextInt();
         }
 
-        SolutionBruteForce bsolution=new SolutionBruteForce();
+        // SolutionBruteForce bsolution=new SolutionBruteForce();
 
-        System.out.println("The triplets are :"+bsolution.threeSum(arr));
+        // System.out.println("The triplets are :"+bsolution.threeSum(arr));
+
+
+         Solution1 solution1=new Solution1();
+
+        System.out.println("The triplets are :"+solution1.threeSum(arr));
     }
 }
 
@@ -58,4 +60,46 @@ class SolutionBruteForce {
 
         return list;
     }
+}
+
+
+class Solution1{
+
+     public List<List<Integer>> threeSum(int[] nums) {
+     Arrays.sort(nums);
+
+        List<List<Integer>> outerList=new ArrayList<>();
+
+        for(int i=0;i<nums.length-2;i++){
+            int compliment=-nums[i];
+
+            
+
+            int start=i+1;
+            int end=nums.length-1;
+
+            while(end>start){
+                List<Integer> innerList=new ArrayList<>();
+                if(nums[start]+nums[end]==compliment){
+                    innerList.add(nums[start]);
+                    innerList.add(nums[end]);
+                    innerList.add(nums[i]);
+                    if(!outerList.contains(innerList)){
+                    outerList.add(innerList);
+                    }
+                    start++;
+                    end--;
+                }
+                else if(nums[start]+nums[end]>compliment){
+                    end--;
+                }
+                else{
+                    start++;
+                }
+                
+            }
+
+        }
+        return outerList;
+}
 }
