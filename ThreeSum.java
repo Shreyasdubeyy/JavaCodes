@@ -21,10 +21,17 @@ class ThreeSum{
         // System.out.println("The triplets are :"+bsolution.threeSum(arr));
 
 
-         Solution1 solution1=new Solution1();
+    //     Solution1 solution1=new Solution1();
 
-        System.out.println("The triplets are :"+solution1.threeSum(arr));
-    }
+    //     System.out.println("The triplets are :"+solution1.threeSum(arr));
+    // 
+    
+        Solution2 solution2=new Solution2();
+
+        System.out.println("The triplets are :"+solution2.threeSum(arr));
+    
+
+}
 }
 
    
@@ -100,6 +107,43 @@ class Solution1{
             }
 
         }
-        return outerList;
+        return outerList;       
 }
+}
+
+
+class Solution2{
+public List<List<Integer>> threeSum(int[] nums) {
+    Arrays.sort(nums);
+        Set<List<Integer>> set =new HashSet<>();
+        for(int i=0;i<nums.length-2;i++){
+           
+
+            int start=i+1;
+            int end=nums.length-1;
+
+
+            while(start<end){
+                int sum=nums[i]+nums[start]+nums[end];
+                if(sum==0){
+                 List<Integer> innerList=new ArrayList<>();
+                 innerList.add(nums[i]);
+                 innerList.add(nums[start]);
+                 innerList.add(nums[end]);
+                 set.add(innerList);
+                 start++;
+                 end--;
+                    
+                }
+                else if(sum<0){
+                    start++;
+                }
+                else{
+                    end--;
+                }
+            }
+        }
+        List<List<Integer>> outerList=new ArrayList<>(set);
+        return outerList;
+    }
 }
