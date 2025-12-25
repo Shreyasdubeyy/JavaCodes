@@ -1,1 +1,2 @@
-The triplets are :[[-3, 0, 3], [-2, 0, 2]]
+The max in the array is:90
+The min in the array is:-23
