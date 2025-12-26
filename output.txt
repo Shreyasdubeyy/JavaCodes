@@ -1,2 +1,1 @@
-The max in the array is:90
-The min in the array is:-23
+The second largest element is :2
