@@ -24,20 +24,31 @@ public class MaxSubArrayKadane {
 //Kadane Algorithm
 class Kadane{
     public int maxSubArray(int[] nums) {
-        int maxSum=nums[0];
-         int currentSum=0;
-        for(int i=0;i<nums.length;i++){
-            if(currentSum<=0){
-                currentSum=nums[i];
-            }
-            else{
-                currentSum+=nums[i];
-            }
+    //     int maxSum=nums[0];
+    //      int currentSum=0;
+    //     for(int i=0;i<nums.length;i++){
+    //         if(currentSum<=0){
+    //             currentSum=nums[i];
+    //         }
+    //         else{
+    //             currentSum+=nums[i];
+    //         }
             
-            maxSum=Math.max(currentSum,maxSum);
-        }
+    //         maxSum=Math.max(currentSum,maxSum);
+    //     }
 
-        return maxSum;
-    }
+    //     return maxSum;
+    // }
+    int arr[]=nums;
+    int currentSum = arr[0];
+	int maxSum = arr[0];
+
+	for(int i=1;i<arr.length;i++) {
+		currentSum = Math.max(arr[i], currentSum + arr[i]);
+		maxSum = Math.max(maxSum, currentSum);
+	}
+
+	return maxSum;
+}
 
 }
