@@ -1,1 +1,5 @@
-The max subarray sum is :90
+Enter size of first array:
+Enter elements of first array:
+Enter size of second array:
+Enter elements of second array:
+Intersection of arrays: [1, 2]
