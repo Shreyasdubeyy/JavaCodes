@@ -1,3 +1,3 @@
-Enter the number of teams
-Enter the details
-Red team wins the race in 6.09 minutes
+Enter weight in kg
+Enter height in cm
+Your BMI is 22.72. You are fit and healthy
