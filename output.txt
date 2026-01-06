@@ -1,3 +1,5 @@
-Enter the array size
-Enter the number
-The maximum number is 100
+Enter the size of first array
+Enter the array elements
+Enter the size of second array
+Enter the array elements
+18 is not a prime number
