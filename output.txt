@@ -1,5 +1,2 @@
-Enter the size of first array
-Enter the array elements
-Enter the size of second array
-Enter the array elements
-18 is not a prime number
+Enter the details
+Hari scored 149 points
