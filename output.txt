@@ -1,2 +1,2 @@
-Enter the details
-Hari scored 149 points
+Enter the training id
+Employee Id: SIETCT069
