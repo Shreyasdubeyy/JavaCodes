@@ -1,2 +1,5 @@
-Enter the training id
-Employee Id: SIETCT069
+Enter the numbers
+Before swapping
+first=5,second=6
+After swapping
+first=6,second=5
