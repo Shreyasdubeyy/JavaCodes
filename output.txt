@@ -1,5 +1,4 @@
-Enter the numbers
-Before swapping
-first=5,second=6
-After swapping
-first=6,second=5
+Enter the sides
+Enter the length
+Enter the breadth
+Area of the Rectangle is 18.00
