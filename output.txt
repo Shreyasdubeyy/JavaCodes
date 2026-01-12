@@ -1,4 +1,2 @@
-Enter the sides
-Enter the length
-Enter the breadth
-Area of the Rectangle is 18.00
+Generate your password
+The generated password Shrjt@5476 is valid and has 4 lowercase alphabet 1 uppercase alphabet 1 special character 4 digit
