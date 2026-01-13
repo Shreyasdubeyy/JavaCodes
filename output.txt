@@ -1,4 +1,4 @@
 Enter the size of an array
 Enter the array elements
 Enter the position of the element to be replicated
-Array index is out of range
+The array elements are 1 2 3 4 4 
