@@ -1,2 +1,2 @@
-The array is:3 4 
-The maximum sum of sub array is:7
+Enter the date
+13/12/2003 is a valid date
