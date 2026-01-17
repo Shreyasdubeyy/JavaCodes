@@ -1,2 +1,4 @@
-Enter the date
-13/12/2003 is a valid date
+Enter your name
+Enter your PAN number
+Enter your E-mail ID
+Profile of Shreyas Dubey updated successfully
