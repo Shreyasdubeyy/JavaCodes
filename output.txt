@@ -1,4 +1,4 @@
-Enter your name
-Enter your PAN number
-Enter your E-mail ID
-Profile of Shreyas Dubey updated successfully
+Enter the String
+Enter First Index
+Enter Second Index
+The output string is Shreyas. Thanks for using the application.
