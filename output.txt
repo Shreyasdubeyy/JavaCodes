@@ -1,4 +1,6 @@
-Enter the String
-Enter First Index
-Enter Second Index
-The output string is Shreyas. Thanks for using the application.
+Enter number of elements
+Enter elements in Array List:
+Before:
+[Shreyas, DUBEY, hello, Great]
+After:
+[SHREYAS, DUBEY, HELLO, GREAT]
