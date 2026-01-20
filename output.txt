@@ -1,6 +1,4 @@
-Enter number of elements
-Enter elements in Array List:
 Before:
-[Shreyas, DUBEY, hello, Great]
+[1, 2, 3, 4]
 After:
-[SHREYAS, DUBEY, HELLO, GREAT]
+[4, 3, 2, 1]
