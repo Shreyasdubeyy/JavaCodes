@@ -1,2 +1,4 @@
-List:[1, 2, 3, 4]
-Second Largest:3
+Enter number of elements
+Enter the elements
+Sum of even numbers is:
+6
