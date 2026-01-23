@@ -1,4 +1,3 @@
 Enter number of elements
 Enter the elements
-Sum of even numbers is:
-6
+Maximum of even numbers is:4
