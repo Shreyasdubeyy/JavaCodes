@@ -1,3 +1,3 @@
 Enter number of elements
 Enter the elements
-Maximum of even numbers is:4
+Average of even numbers is:3.0
