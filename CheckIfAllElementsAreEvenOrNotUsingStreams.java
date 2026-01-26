@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 public class CheckIfAllElementsAreEvenOrNotUsingStreams {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -13,12 +12,19 @@ public class CheckIfAllElementsAreEvenOrNotUsingStreams {
 			list.add(sc.nextInt());
 		}
 		
-		List evenNumbers=list.stream().filter(x->x%2==0).collect(Collectors.toList());
-		
-		if(evenNumbers.size()==list.size()) {
+        // List evenNumbers=list.stream().filter(x->x%2==0).collect(Collectors.toList());
+        // if(evenNumbers.size()==list.size()) {
+        // 	System.out.println("All elements are even");
+        // 	return;
+        // }
+        // System.out.println("Few Elements are not even");
+        boolean allEven = list.stream().allMatch(x->x%2==0); 
+
+			System.out.println("Using allMatch method:");
+		if(allEven) {
 			System.out.println("All elements are even");
-			return;
+		} else {
+			System.out.println("Few Elements are not even");
 		}
-		System.out.println("Few Elements are not even");
     }
 }

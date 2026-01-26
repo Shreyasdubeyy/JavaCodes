@@ -1,3 +1,4 @@
 Enter the size of list:
 Enter elements:
+Using allMatch method:
 All elements are even
