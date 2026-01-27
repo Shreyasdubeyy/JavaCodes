@@ -1,4 +1,3 @@
-Enter the size of list:
-Enter elements:
-Using allMatch method:
-All elements are even
+Enter number of elements in list
+Enter list elements
+{2=Even, 4=Even, 6=Even, 12=Even}
