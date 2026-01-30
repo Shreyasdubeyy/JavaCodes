@@ -1,2 +1,2 @@
-Enter date in format dd-MM-yyyy
-String is a valid date:12-12-2003
+Enter Date of Birth in dd-MM-yyyy format
+Age:22 years,1 month
