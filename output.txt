@@ -1,2 +1,2 @@
-Enter Date of Birth in dd-MM-yyyy format
-Age:22 years,1 month
+Enter Date in dd-MM-yyyy format
+Valid date format:12-12-2003
