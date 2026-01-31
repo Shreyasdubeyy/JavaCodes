@@ -1,2 +1,2 @@
-Enter Date in dd-MM-yyyy format
-Valid date format:12-12-2003
+Enter a year: 
+It is not a leap year.
