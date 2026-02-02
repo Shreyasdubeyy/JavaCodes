@@ -1,2 +1,7 @@
-Enter a year: 
-It is not a leap year.
+Enter the size of the list:
+Enter array elements
+Enter number of elements to skip
+The list is:
+[1, 2, 3, 4]
+Moddififed List:
+[3, 4]
