@@ -1,7 +1,5 @@
-Enter the size of the list:
-Enter array elements
-Enter number of elements to skip
-The list is:
-[1, 2, 3, 4]
-Moddififed List:
-[3, 4]
+Enter the size of list
+Enter elements in the list:
+The list is[1, 2, 3, 4]
+Even:[2, 4]
+Odd:[1, 3]
