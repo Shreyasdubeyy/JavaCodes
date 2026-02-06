@@ -1,2 +1,4 @@
-{a=2, b=1, c=45, d=96}
-[b=1, a=2, c=45, d=96]
+Enter size of the list
+Enter element in list
+[1, 1, 2, 2, 3]
+[1, 2]
