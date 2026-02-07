@@ -1,4 +1,2 @@
-Enter size of the list
-Enter element in list
-[1, 1, 2, 2, 3]
-[1, 2]
+Enter the string
+The character is:r
