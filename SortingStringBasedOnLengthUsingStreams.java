@@ -18,6 +18,7 @@ public class SortingStringBasedOnLengthUsingStreams {
 	
     System.out.println("Before sorting:"+list);
     List<String> sortedList = list.stream().sorted(Comparator.comparing(String::length)).collect(Collectors.toList());
-		System.out.println("After sorting:"+sortedList);
-    }
+		System.out.println("After sorting Ascending:"+sortedList);
+		System.out.println("After sorting Descending:"+list.stream().sorted(Comparator.comparing(String::length).reversed()).collect(Collectors.toList()));
+	}
 }

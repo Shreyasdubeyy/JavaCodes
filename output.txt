@@ -1,3 +1,4 @@
 Enter array size
 Before sorting:[hello , hi , shreyas , how are you]
-After sorting:[hi , hello , shreyas , how are you]
+After sorting Ascending:[hi , hello , shreyas , how are you]
+After sorting Descending:[how are you, shreyas , hello , hi ]
