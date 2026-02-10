@@ -1,5 +1,13 @@
 4
-hello 
-hi 
-shreyas 
-how are you
+101 
+Shreyas 
+100000
+102 
+Akshay 
+200000
+103 
+Priyansh 
+4000000
+104 
+Pratyaksh 
+84000
