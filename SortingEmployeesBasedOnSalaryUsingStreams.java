@@ -21,10 +21,19 @@ public class SortingEmployeesBasedOnSalaryUsingStreams {
         list.forEach(e->System.out.println(e.id+" "+e.name+" "+e.salary));
         System.out.println();
         
-        System.out.println("After sorting Ascending:");
+      
         
         List<Employee> sortedList = list.stream().sorted(Comparator.comparingDouble(e->e.salary)).collect(Collectors.toList());
+        List<Employee> reverseSortedList =list.stream().sorted(Comparator.comparingDouble((Employee e) -> e.salary).reversed()).collect(Collectors.toList());
+
+  System.out.println("After sorting Ascending:");
         sortedList.forEach(e->System.out.println(e.id+" "+e.name+" "+e.salary));
+        
+        System.out.println();
+
+        System.out.println("After sorting Descending:");
+        reverseSortedList.forEach(e->System.out.println(e.id+" "+e.name+" "+e.salary));
+        
 
 
     }

@@ -23,3 +23,9 @@ After sorting Ascending:
 101 Shreyas  100000.0
 102 Akshay  200000.0
 103 Priyansh  4000000.0
+
+After sorting Descending:
+103 Priyansh  4000000.0
+102 Akshay  200000.0
+101 Shreyas  100000.0
+104 Pratyaksh  84000.0
