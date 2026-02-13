@@ -1,31 +1,14 @@
-Enter number of employees
-Enter employee id
-Enter employee name
-Enter employee salary
-Enter employee id
-Enter employee name
-Enter employee salary
-Enter employee id
-Enter employee name
-Enter employee salary
-Enter employee id
-Enter employee name
-Enter employee salary
-
-Before sorting:
-101 Shreyas  100000.0
-102 Akshay  200000.0
-103 Priyansh  4000000.0
-104 Pratyaksh  84000.0
-
-After sorting Ascending:
-104 Pratyaksh  84000.0
-101 Shreyas  100000.0
-102 Akshay  200000.0
-103 Priyansh  4000000.0
-
-After sorting Descending:
-103 Priyansh  4000000.0
-102 Akshay  200000.0
-101 Shreyas  100000.0
-104 Pratyaksh  84000.0
+Enter array size
+Enter id
+Enter Name
+Enter salary
+Enter id
+Enter Name
+Enter salary
+Enter id
+Enter Name
+Enter salary
+Enter id
+Enter Name
+Enter salary
+Max salary is:4000000.0
