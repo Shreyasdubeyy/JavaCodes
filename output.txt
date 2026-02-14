@@ -11,4 +11,4 @@ Enter salary
 Enter id
 Enter Name
 Enter salary
-Max salary is:4000000.0
+Employee with highest salary: Priyansh , Salary: 4000000.0
