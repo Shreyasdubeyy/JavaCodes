@@ -11,4 +11,4 @@ Enter salary
 Enter id
 Enter Name
 Enter salary
-Employee with highest salary: Priyansh , Salary: 4000000.0
+Employee with lowest salary: Pratyaksh , Salary: 84000.0
