@@ -11,4 +11,7 @@ Enter salary
 Enter id
 Enter Name
 Enter salary
-Employee with lowest salary: Pratyaksh , Salary: 84000.0
+Enter salary threshold
+Shreyas , Salary: 100000.0
+Akshay , Salary: 200000.0
+Priyansh , Salary: 4000000.0
